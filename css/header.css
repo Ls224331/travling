@@ -1,0 +1,41 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+select{
+    font-size: 0.5rem;
+}
+.my_a{
+    font-size: 0.5rem;
+    color:#333;
+    font-size: 0.5rem;
+}
+.container .row div ul li a{
+    text-decoration: none;
+}
+.my_c{
+    color:#ddd
+}
+.nav_s{
+    background:#a9f57d; 
+    border-radius: 3%;  
+                   
+}
+.nav_s li a{
+    color:#333;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+#h_title{
+   width:100%;
+  justify-content: center
+}
+.tab-content{
+   margin-left:30rem;
+}
+.b-wh{
+    width:25px;
+    height:30px;
+}

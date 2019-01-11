@@ -1,0 +1,159 @@
+
+        *{padding:0;margin:0}
+        .container{
+            width:100%;
+            height:900px;
+            background:url("../22.jpg") ;
+            font-size:14px;
+            margin:0 auto;
+        }
+        .register{
+            position: relative;
+            width:1200px;
+            height:548px;
+            background:rgba(150, 150, 150, 0.5);
+            top:16%; 
+            margin:0 auto;
+
+       }
+       .title{
+           
+           position: relative;
+           background: rgba(196, 182, 247, 0.8);
+       }
+        .title a  {
+            text-align: center;
+            display: inline-block;
+            height:60px;
+            font-size:35px;
+            line-height: 60px;
+            text-decoration: none;
+            
+        }
+        .title a span{
+            color:#fff;
+        }
+        .reg{
+            overflow: hidden;
+            position: relative;
+        }
+        .main-item{
+            float: left;
+            width: 560px;
+            height:382px;
+            
+            padding-left:375px;
+            padding-top:50px;
+        }
+        ul{
+            list-style:none;
+        }
+        .input-list li{
+            clear:both;
+            padding-bottom: 43px;
+        }
+        .input{
+            float:left;
+            vertical-align: middle;
+        }
+        .input .required-input{
+            position: relative;
+        } 
+        .input label{
+            display:inline-block;
+            width:84px;
+            height:34px;
+            text-align: center;
+            line-height: 28px;
+            font-size: 21px;
+        }
+        span .txt{
+            height:28px;
+            line-height: 28px;
+            font-size: 21px;
+            border:1px solid #dedede;
+            width:280px;
+        }
+        .ident-code{
+            width:260px;
+            height:28px;
+            line-height: 28px;
+            
+        }
+        .input-tip{
+            height:28px;
+            left: 10px;
+            position: relative;
+            vertical-align: middle;
+            float: left;
+            line-height: 28px;
+        }
+        .phone-code{
+            line-height: 30px;
+            text-align: center;
+            display: inline;
+
+        }
+        .get-code{
+            display: inline-block;
+            width:100px;
+            height:28px;
+            line-height: 28px;
+            border:1px solid #e9e9e9;
+            position: relative;
+            left:15px;
+            top:3px;
+            text-decoration:none;
+        }
+        .txt .ident-left-code{
+            width: 60px;
+            height:28px;
+            margin-right: 4px;
+        }
+        .txt .ident-right-code{
+            width:188px;
+            height:28px;
+        }
+        .invitation{
+            text-decoration: underline;
+        }
+       .check{
+           margin-bottom: 15px;
+           position: relative;
+       }
+       #class-info{
+           margin-right:5px;
+       }
+       .agreement{
+           color:green;
+           margin-left:5px;
+           border-bottom: 1px dashed #43b313;
+       }
+       .reg-check{
+           position: relative;
+           padding:5px 0 0 87px;
+           bottom: 50px;
+           
+       }
+       .btn{
+           width:270px;
+           height:35px;
+           font-size: 20px;
+           border-radius: 5%;
+           font-weight: bold;
+       }
+       .clearfix{
+           position: relative;
+           height:28px;
+          left:1050px;
+          
+       }
+       .clearfix a {
+        text-decoration: none;
+        top:5px;
+        position: relative;
+       }
+       .phone_test ,.upwd_test,.proving_test{
+           color:red;
+       }
+    

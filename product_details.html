@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/details.js"></script>
+    <style>
+   
+    </style>
+</head>
+<body>
+  <span id="top1">
+    <a href="#main">
+      <img  src="img/details/top1.png" alt="">
+      <p>返回顶部</p>
+    </a>     
+    <hr class="m-0 mb-2">
+    <a href="">
+      <img src="img/details/ch.png" alt="">
+    <p>我的订单</p>
+    </a>    
+    <hr class="m-0 mb-2 mt-2">
+    <a href="personal.html">
+      <img src="img/details/personal.png" alt="">
+    <p>个人中心</p>
+    </a>
+    
+  </span>
+    <main id="main" class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb small bg-transparent">
+            <li class="breadcrumb-item"><a class="text-dark font-weight-bold small" href="#">首页</a></li>
+            <li class="breadcrumb-item"><a class="text-dark font-weight-bold small" href="#">国内热门</a></li>
+            <li class="breadcrumb-item text-dark font-weight-bold small active" aria-current="page">热门线路</li>
+          </ol>
+        </nav>
+        <div class="container mb-5">
+          <div class="row pr-3">
+            <div id="preview" class="col pr-0">
+              <div class="card bg-transparent mr-5 position-absolute">
+                <img class="card-img-top" src="img/details/details3.jpg"  alt="Card image cap">
+                <div id="mask" class="position-absolute d-none"></div>
+                <div id="super-mask" class="position-absolute"></div> 
+                <div id="div-lg" class="position-absolute d-none"></div>
+                <div class="card-body p-0 text-center">
+                  <img src="img/details/hover-prev.png" class="btn float-left btn-light border-0 p-1 pt-4 pb-4 disabled">
+                  <div class="d-inline-block pt-2 mx-0 m-auto">
+                    <!-- <ul class="list-unstyled mb-0"> -->
+                    <ul class="list-unstyled mb-0">
+                      <!--<li class="float-left p-1">
+                        <img src="img/product/sm/57e3b072N661cd00d.jpg" data-md="img/product/md/57e3b072N661cd00d.jpg" data-lg="img/product/lg/57e3b072N661cd00d.jpg">
+                      </li>-->
+                    </ul>
+                  </div>
+                  <img src="img/details/hover-next.png" class="btn float-right btn-light border-0 p-1 pt-4 pb-4">
+                </div>
+              </div>
+            </div>
+            <div id="details" class="col pl-0">
+              <h6 class="font-weight-bold">
+                
+              </h6>
+              <h6>
+                <a class="small text-dark font-weight-bold" href="javascript:;"></a>
+              </h6>
+              <div class="alert alert-secondary small" role="alert">
+                <div>
+                  <span>售价：</span>
+                  <h2 class="d-inline text-primary font-weight-bold"></h2>
+                </div>
+                <div>
+                  <span>服务承诺：</span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- 客服 -->
+              <p class="mb-1">
+                <span class="small">客服：</span>
+                <span class="small">联系客服</span>
+                <img class="mb-3" src="img/details/kefuf.gif">
+              </p>
+              <!-- 规格 -->
+              <div>
+                <div class="float-left small">规格：</div>
+                <div class="float-left w-50">
+                  <a class="btn btn-sm btn-outline-secondary active" href="product_details.html?lid=1" class="active" ></a>
+                  <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=2" class=""></a>
+                  <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=3" class=""></a>
+                  <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=4" class=""></a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- 数量 -->
+              <div class="mt-2">
+                <div class="float-left small">数量：</div>
+                <div class="input-group mb-3 w-25">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary p-1" type="button">-</button>
+                  </div>
+                  <input type="text" value="1" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary p-1" type="button">+</button>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- 购买部分 -->
+              <div>
+                <a class="btn pt-3 pb-2 pl-5 pr-5" href="javascript:;"><h5>立即预定</h5></a>
+                <a class="btn btn-success pt-3" href="javascript:;">
+                  <h5><img src="img/details/product_detail_img7.png" alt=""> 加入购物车</h5>
+                </a>
+                <a class="btn btn-primary pt-1 pb-1" href="javascript:;" class="collection">
+                  <img src="img/details/product_detail_img6.png">
+                  <br>
+                  收藏
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="container border" id="intro">
+          <form action="" class="form-group">
+            <div class="form-inline">
+              <div class="col-md-9">
+                <ul class="list-unstyled d-flex " id="title">
+                  <li class="mr-4"><a href="#process">预定流程</a></li>
+                  <li class="mr-4"><a href="#traffic">交通路线</a></li>
+                  <li class="mr-4"><a href="#price">费用说明</a></li>
+                  <li class="mr-4"><a href="#refund">退款政策</a></li>
+                  <li class="mr-4"><a href="#recom">推荐行程</a></li>
+                  <li class="mr-4"><a href="#consult">咨询</a></li>
+                  
+                </ul>
+              </div>
+             
+              <div class="col-md-3">
+                
+                <img class="float-right mt-1" src="img/details/er.png" alt="">
+                <span class="float-right">手机购买</span>
+              </div>
+            </div>
+          </form>
+          <hr>
+          <div class="text-center "><h5 id="process">预定流程</h5></div>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="text-center font-weight-bold">
+                <span class="">二次确认</span>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <span>此产品需二次确认,商家将在24个工作小时内核实是否有位 </span>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="text-center font-weight-bold">
+                <span class="">预定流程</span>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <img class="process" src="img/details/liucheng.jpg" alt="">
+            </div>
+          </div>
+          <div class="text-center mt-5"><h5>产品简介</h5></div>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-3">
+              <div class="text-center font-weight-bold">
+                <span class="">亮点推荐</span>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9">
+              <p>直飞航班：北京/天津直飞日本，一站直达，省去转机时间以及旅途劳累</p>
+              <p>行程自由：单机票产品，可根据自己的实际需求安排行程，灵活性更强</p>
+              <p>多目的地：提供大阪/东京/名古屋/东阪/冲绳多个目的地可选，满足不同穷游er需求</p>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <h5 id="traffic">交通信息</h5>
+            <small>交通信息仅供参考，最终以供应商确认为准</small>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-3 text-center">
+              <ul class="list-unstyled ">
+                <li>
+                  <a href="" class="btn btn-sm btn-success">北京</a>
+                </li>
+                <li>
+                  <small>杭州</small>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 col-md-9">
+              <div>
+                <h6 class="mr-3 float-left font-weight-normal">交通1</h6>
+                <h6 class="float-left">北京杭州东航参考航班</h6>               
+              </div>              
+            </div>            
+          </div>
+          <div class="text-center mt-5">
+            <h5 id="price">费用说明</h5>
+            <small>多程机票需严格按行程顺序使用，如任意一段未使用则后续航段均无法使用</small>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-3 col-lg-3">
+              <div class="text-center font-weight-bold">
+                <span>费用包含</span>
+              </div>
+            </div>
+            <div class="col-md-9 col-lg-9">
+                <p>1. 北京/天津直飞杭州4-8天往返含税机票</p>
+                <p><strong><span style="color: red;">注意：由于机票产品库存变化较快，页面上展示航班仅供参考，请与销售核实后，以确认出票为准</span></strong></p>
+                <p><br></p>
+                <p><br></p>
+                <p>杭州全日空6天：10.2/9/20赠送WiFi</p>
+                <p>杭州全日空7天：10.12赠送wifi</p>
+                <p><br></p>
+                <p>杭州全日空六天 &nbsp; &nbsp;北京-萧山&nbsp;2018/10/2&nbsp;NH962&nbsp;15:20-19:45</p>
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;萧山-北京&nbsp;2018/10/7&nbsp;NH963&nbsp;17:20-20:10</p>
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;北京-萧山 2018/10/20&nbsp;NH962 &nbsp;15:20-19:45</p>
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></p>
+                <p>杭州全日空七天 &nbsp; 北京-萧山 &nbsp; 2018/10/12 &nbsp; &nbsp;NH964 &nbsp;08:25-12:50 &nbsp; &nbsp;</p>
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 萧山-北京 &nbsp; 2018/10/18 &nbsp; &nbsp;NH963 &nbsp;17:20:20:10 &nbsp; &nbsp;</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+              <div class="col-md-3 col-lg-3">
+                <div class="text-center font-weight-bold">
+                  <span>费用不含</span>
+                </div>
+              </div>
+              <div class="col-md-9 col-lg-9">
+                  <p>1. 酒店住宿费用</p>
+                  <p>2. 签证费用</p>
+                  <p>3. 旅游人身意外保险，建议自行购买</p>
+                  <p>4. 升级舱位等产生的差价</p>
+                  <p>5. 出入境时由于个人物品引起的费用，如海关征税、托运费、保管费、超重行李费等</p>
+                  <p>6. 因交通延阻、罢工、天气、飞机机器故障、航班取消或更改时间等不可抗力原因导致的费用</p>
+                  <p>7. 一切个人消费及费用包含中未提及的任何费用</p>
+                  <p>8. 【外籍费用】该产品价格只适用于持有中国大陆护照的公民，外籍客人价格需追加200元/人。</p>
+              </div>
+          </div>  
+          <div class="text-center mt-5">
+            <h5 id="refund">退款政策</h5>
+            <small>商城有独立于商家的质控体系，任何商家违约，用户都会获得合理赔偿</small>
+          </div>
+          <div class="mt-4">
+            <p>特价或秒杀的旅行产品（特价旅行产品一般指因促销折价销售的旅行产品；秒杀旅行产品一般指因促销以超低价格销售并要求用户在同一时间网上抢购的旅行产品），因此类旅行产品的特殊性，特提示用户注意，此类产品无法享受7日内无理由退货的服务。该类旅行产品一旦用户下单并支付成功的，在商家确认前可随时取消并要求退款，在商家确认后则无法申请取消并要求退款。</p>
+          </div>
+          <div class="text-center mt-5"><h5 id="recom">推荐行程</h5></div>
+          <div class="text-center mt-5"><h5 id="consult">咨询</h5></div>
+        </div>
+     </main>
+</body>
+</html>

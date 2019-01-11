@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+        <div id="content">
+                <div class="login">
+                        <table>
+                            <tr>
+                                <td>手机/用户/邮箱</td>
+                                <td>
+                                    <input type="text" name="uname" id="uname" autofocus>
+                                </td>
+                                <td>
+                                    <span id="uname_test"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="prompt" id="uname_test"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>密码</td>
+                                <td>
+                                    <input type="password" name="upwd" id="upwd">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="prompt" id="upwd_test"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" class="size" id="check">
+                                    <span><label for="check" >记住我（请在私人计算机上使用此功能）</label></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="login" class="alogin">登录</button>
+                                    <button id="register">
+                                        <a href="register.html">注册</a></button>
+                                </td>
+                                <td>
+                                    <span class="prompt" id="login_reg"></span>
+                                </td>
+                            </tr>
+                        </table>
+                            <p class="other">第三方账号登录: <a href=""></a></p>
+                        <p class="other"><a href="#">忘记密码？点这里找回</a></p>
+                    <div class="notice">
+                        <p>用户注册/登录说明：</p>
+                        <p>1、演示用户名：demouser；密码： demo1234</p>
+                        <p>2、实际使用之前，需配置用户管理组件中的相关邮件。详情请参考教程：
+                            <a href="">《用户管理中相关邮件的配置》</a></p>
+                        <p>3、新用户注册后的审核方式有三种：自动核准、邮件激活、需要管理员批准（即人工审核），详情可参考教程
+                            <a href="">《如何设置用户注册后的审核方式》</a></p>
+                    </div>
+                </div>
+            </div>
+            <script src="js/jquery-3.2.1.js"></script>
+            <script src="js/login.js"></script>
+            
+</body>
+</html>

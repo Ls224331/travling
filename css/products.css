@@ -1,0 +1,18 @@
+
+
+  
+  /*定制商品列表部分的样式*/
+  /*#plist button.btn{
+  }*/
+  #plist input.form-control{
+    width:30px;
+  }
+  #plist+h6 .page-link{
+    border-color:#bbb
+  }
+  #plist+h6 .page-link:hover{
+    border-color:#007bff;
+  }
+  #plist+h6 .page-item.disabled{
+    opacity:0.5;
+  }

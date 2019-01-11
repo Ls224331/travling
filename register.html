@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="register">
+            <div class="clearfix">
+                <a href="login.html"><span>已有账号，立即登录</span></a>
+            </div>
+            <div class="title">
+                <a href="#" style="width:100%">
+                    <span>注册</span>
+                </a>
+            </div>
+            <div class="reg">
+                <div class="main-item">
+                    <ul class="input-list">
+                            <li class="ident">
+                                    <div class="input">
+                                        <label class="required-input">手机号：</label>
+                                        <span class="txt">
+                                            <input type="text" class="ident-left-code"  placeholder="+0086">
+                                            <input type="text" name="phone" class="ident-right-code  phone" placeholder="请输入11位手机号码" maxlength="11" minlength="11">
+                                        </span>
+                                    </div>
+                                    <div class="phone_test input-tip"></div>
+                            </li>
+                        <li class="ident">
+                                <div class="input">
+                                    <label class="required-input">校验码：</label>
+                                    <span class="txt">
+                                        <input type="text" class="ident-code j-code" maxlength="6" disabled placeholder="请输入六位校验码">
+                                    </span>
+                                </div>
+                                <div class="phone-code">
+                                    <a href="#" class="get-code">获取动态密码</a>
+                                </div>
+                        </li>
+                        <li class="ident">
+                            <div class="input">
+                                <label class="required-input">验证码：</label>
+                                <span class="txt">
+                                    <input type="text" class="ident-code proving" maxlength="4" placeholder="请输入四位验证码">
+                                </span>
+                            </div>
+                            <div class="input-tip proving_test"></div>
+                        </li>
+                        <li class="ident">
+                                <div class="input">
+                                    <label class="required-input">密码：</label>
+                                    <span class="txt">
+                                        <input type="text" class="ident-code upwd" name="upwd" maxlength="6" placeholder="请输入六位密码">
+                                    </span>
+                                </div>
+                                <div class="input-tip upwd_test"></div>
+                            </li>
+                        
+                        <li class="ident">
+                                <div class="input">
+                                    <label class="required-input">邀请码：</label>
+                                    <span class="txt">
+                                        <input type="text" class="ident-code " maxlength="11" minlength="11" placeholder="请输入推荐人手机号码">
+                                    </span>
+                                </div>
+                                <div class="phone-code invitation">
+                                    <a href="#" class="get-code">了解推荐有礼</a>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="check">
+                                <input type="checkbox" id="class-info">
+                                <label for="agree">
+                                    同意<a href="#" class="agreement">XX会员协议</a>和
+                                    <a href="#" class="agreement">XX隐私政策</a>并且愿意接受免费资讯信息
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="reg-check">
+                        <button class="btn lg btn-warning" id="register">注册</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

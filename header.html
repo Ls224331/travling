@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/header.css">
+   
+</head>
+<body>
+   <header id="header" class="container">
+       <div class="row">
+           <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <a href="" class="navbar-brand mr-0">
+                   <img  src="img/h_img/dl.png" alt="">
+                </a>
+                <select name="provs">
+                   <option>城市</option><!--0-->
+                   <option>北京市</option><!--1-->
+                   <option>天津市</option>
+                   <option>河北省</option>
+                </select>
+                <select name="cities" class="hide">
+                </select>
+              
+                    <a href="login.html" class="text-muted my_a">请登录</a>
+                    <b class=" ml-2 mr-2 my_a">|</b>
+                    <a href="" class="text-muted my_a">免费注册</a>
+                
+                <b class=" ml-2 mr-2 my_a">|</b>
+               
+                    <a class="my_a text-muted" id="btnSignout" href="javascript:;">注销</a>
+               
+           </div>
+           <div class="col-xl-8 col-lg-8 col-md-6">
+               <ul class="d-flex list-unstyled pt-2 float-right">
+                   <li>
+                       <a href="personal.html" class="navbar-brand my_a">个人中心</a>
+                   </li>
+                   <li>
+                       <a href="" class="navbar-brand my_a">商城</a>
+                   </li>
+                   <li>
+                       <a href="" class="navbar-brand my_a">会员俱乐部</a>
+                   </li>
+                   <li>
+                       <a href="" class="navbar-brand my_a">品牌会员</a>
+                    </li>
+                   <li>
+                      <a href="" class="navbar-brand my_a mr-1">帮助</a>
+                   </li>  
+                   <b class="mt-1  my_c">|</b> 
+                   <li>
+                       <a href="">
+                       <img src="img/h_img/wechat.png" class="mt-1 ml-1" alt="">
+                       </a>
+                   </li>
+                   <li>
+                       <a href="">
+                       <img src="img/h_img/blog.png" class="mt-1 ml-2" alt="">
+                       </a>
+                   </li>
+                   <li>
+                       <a href="">
+                       <img src="img/h_img/phone.png" class="mt-1 ml-2 " alt="">
+                       </a>
+                    </li> 
+                    <b class="mt-1 ml-1 my_c">|</b>
+                    <li>
+                        <a href="" class="navbar-brand my_a mr-1">在线客服</a>
+                    </li>
+                    <li>
+                        <a href="" class="navbar-brand my_a mr-1">合作中心</a>
+                    </li>                                           
+               </ul>
+           </div>
+           
+       </div>
+    </header>
+    
+       <ul id="h_title" class="nav nav-tabs nav_s ">
+            <li class="nav-item">
+              <a class="nav-link active" href="#tab1" data-toggle="tab">首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab2" data-toggle="tab">出境游</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab3" data-toggle="tab">国内游</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab4" data-toggle="tab">周边游</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#tab5" data-toggle="tab">定制游</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#tab6" data-toggle="tab">自驾游</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab7" data-toggle="tab">亲子游</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab8" data-toggle="tab">游轮</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab9" data-toggle="tab">机票</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab10" data-toggle="tab">火车票</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab11" data-toggle="tab">特卖会</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab12" data-toggle="tab">金融</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab13" data-toggle="tab">旅游攻略</a>
+            </li>
+            
+          </ul>
+          <!-- 内容部分-->
+          <div class="tab-content ">
+            <div class="tab-pane active" id="tab1"></div>
+            <div class="tab-pane" id="tab2">
+                <span class="mr-4">出境首页</span>
+                <span class="mr-4">签证</span>
+                <span class="mr-4">游轮</span>
+                <span class="mr-4">境外玩乐</span> 
+            </div>
+            <div class="tab-pane" id="tab3">
+                <span class="mr-4">国内首页</span>
+                <span class="mr-4">自由行</span>
+                <span class="mr-4">超级自由行</span>
+                <span class="mr-4">定制游</span>  
+            </div>
+            <div class="tab-pane" id="tab4">
+                 <span class="mr-4">周边游首页</span>
+                 <span class="mr-4">酒店+景点</span>
+                 <span class="mr-4">周边跟团</span>
+                 <span class="mr-4">定制游</span> 
+            </div>
+            <div class="tab-pane" id="tab5">
+                 <span class="mr-4">出境首页</span>
+                 <span class="mr-4">签证</span>
+                 <span class="mr-4">游轮</span>
+                 <span class="mr-4">境外玩乐</span> 
+            </div>
+          </div>
+       
+      
+
+
+
+   <script>
+      var cities=[
+    [{"name":'东城区',"value":101},
+     {"name":'西城区',"value":102},
+     {"name":'海淀区',"value":103},
+     {"name":'朝阳区',"value":104}],
+    [{"name":'河东区',"value":201},
+     {"name":'河西区',"value":202},
+     {"name":'南开区',"value":203}],
+    [{"name":'石家庄市',"value":301},
+     {"name":'廊坊市',"value":302},
+     {"name":'保定市',"value":303},
+     {"name":'唐山市',"value":304},
+     {"name":'秦皇岛市',"value":305}]
+];
+
+  var selProvs=document.getElementsByName("provs")[0];
+  selProvs.onchange=function(){
+    var selProvs=this;
+    var i=selProvs.selectedIndex;
+    //alert(i);
+    var selCts=document.getElementsByName("cities")[0];
+    if(i>0){
+    var arr=cities[i-1];
+    console.log(arr); 
+  
+    var frag=document.createDocumentFragment();
+    frag.appendChild(new Option("请选择"));
+    for(var c of arr){
+      frag.appendChild(new Option(c.name,c.value));
+    }
+    selCts.innerHTML="";
+    selCts.appendChild(frag);
+    selCts.className="";
+  }else {
+    selCts.className="hide";
+  }
+  } 
+   </script>
+</body>
+</html>
